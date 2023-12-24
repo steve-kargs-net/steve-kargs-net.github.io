@@ -1,0 +1,8 @@
+[Desktop Entry]
+ServiceTypes=audio/*
+Actions=convertToMP3
+
+[Desktop Action convertToMP3]
+Name=Convert to MP3
+Exec=lame -V2 %f "`echo %f | perl -pe 's/\.[^.]+$//'`.mp3"
+
