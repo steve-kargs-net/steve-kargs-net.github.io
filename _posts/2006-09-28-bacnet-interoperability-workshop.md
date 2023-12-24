@@ -1,0 +1,29 @@
+---
+id: 45
+title: 'BACnet Interoperability Workshop'
+date: '2006-09-28T19:56:01-05:00'
+author: skarg
+layout: post
+guid: 'http://steve.kargs.net/uncategorized/bacnet-interoperability-workshop/'
+permalink: /bacnet/bacnet-interoperability-workshop/
+categories:
+    - BACnet
+---
+
+[![SwitchPak MS/TP Menu](http://steve.kargs.net/wp-content/uploads/2006/09/mstp-menu.thumbnail.jpg "SwitchPak MS/TP Menu")](http://steve.kargs.net/wp-content/uploads/2006/09/mstp-menu.jpg "SwitchPak MS/TP Menu")At work, I have spent the past month, and in particular, the past two weeks, preparing for the [BACnet Interoperabilty Workshop](http://www.bacnetinternational.org/interop/). What does that mean? Well, we were going to take two beta products to the plugfest, as it is affectionately called. My original plan was to take [our existing product](http://lithonia.com/controls/SynergyOnlineBrochure/default.htm), convert and upgrade the BACnet stack in it, and add routing capability. It probably requires about a month of work to do that. However, many other things came up at work, and I didn’t even come close getting a good start on the project. Two weeks ago I talked to our specification manager who is going to be at the plugfest with me, and she asked for [a completely different product](http://lithonia.com/controls/spak/spak.htm) to have BACnet capability added.
+
+[![One side of my cubicle office](http://steve.kargs.net/wp-content/uploads/2006/09/skarg-office.thumbnail.jpg "One side of my cubicle office")](http://steve.kargs.net/wp-content/uploads/2006/09/skarg-office.jpg "One side of my cubicle office")So two weeks ago on a Monday afternoon, I pulled the product source code from our version control system (I *wish* it was [Subversion](http://subversion.tigris.org/)). I setup the [MPLAB IDE](http://www.microchip.com/) for that project, and connected my ICD2 to the PIC18F6720 based lighting controller. The product was developed by my friend and colleague Mark. We use a [software coding standard](http://www.ganssle.com/misc/fsm.doc) at work that I created. Coding standards make it easy to work on each others code and it still looks somewhat familiar.
+
+On Tuesday I grabbed the latest version of the [BACnet Stack at Sourceforge](http://bacnet.sourceforge.net/) from subversion, and set about integrating BACnet into the product. I cut out some code to make space for the BACnet stack – just the self test code and the RS-232 terminal. By Wednesday I had MS/TP communications and a Device Object responding to WhoIs service requests with I-Am service responses.
+
+On Wednesday and Thursday I added support for the rest of the objects (8 Binary Inputs, 8 Binary Values, and 1 Analog Input) and DeviceCommunicationControl, ReadProperty, TimeSync, ReinitializeDevice, WhoIs, and I-Am services.
+
+On Friday I fine tuned the MS/TP state machine. I started to use the [Bitscope attached to my PC](http://www.bitscope.com/), but it didn’t have the deep capture and user friendly features of my favorite scope, the [HP54645D 100MHz 2+16 channel mixed signal oscilloscope](http://www.home.agilent.com/agilent/product.jspx?cc=US&lc=eng&ckey=1000001438:epsg:pro&nid=-536902796.536880488.00&id=1000001438:epsg:pro). The [HP54645D is great for protocol analysis](http://www.hpl.hp.com/hpjournal/97apr/apr97.htm). For example, I capture 5 seconds of communication. Then I use the MegaZoom feature. I simply twist the timebase knob and zoom in on the trace. I use the horizonal scroll to move the trace in time to the place of interest. I can then use the cursors to measure the time or frequency or voltage. This works great, for example, when checking to see how long it takes from receiving an MS/TP token to actually using the token. It also works well to spot a collision and determine which packet caused it.
+
+[![HP54645D Scope of MS/TP Trace actual capture](http://steve.kargs.net/wp-content/uploads/2006/09/mstp-scope-1.thumbnail.jpg)](http://steve.kargs.net/wp-content/uploads/2006/09/mstp-scope-1.jpg "HP54645D Scope of MS/TP Trace actual capture") [![HP54645D Scope MSTP trace - some Mega Zoom ](http://steve.kargs.net/wp-content/uploads/2006/09/mstp-scope-2.thumbnail.jpg)](http://steve.kargs.net/wp-content/uploads/2006/09/mstp-scope-2.jpg "HP54645D Scope MSTP trace - some Mega Zoom ") [![HP54645D Scope MSTP trace - more Mega Zoom and time cursors](http://steve.kargs.net/wp-content/uploads/2006/09/mstp-scope-3.thumbnail.jpg)](http://steve.kargs.net/wp-content/uploads/2006/09/mstp-scope-3.jpg "HP54645D Scope MSTP trace - more Mega Zoom and time cursors")
+
+This week, on Monday, I added the WriteProperty service, and began validating that all the services were integrated properly. I added hooks to write to various BACnet properties since I didn’t take the time to modify the keypad menus for setting things like the BACnet Device Object Instance Number and the MS/TP baud rate.
+
+So, it took about five working days to go from zero to BACnet. Wow! I still have some work to do in order to design the networking interaction of this device with other devices of its kind. In other words, I have to figure out how to make it do simple control networking out of the box. I also have to add menus to configure the BACnet parameters. However, I am able to read and write to the 8 relays. I am able to read the values of the inputs. I am able to read the time and date, and set the time and date. I am able to control the device communications, and able to reset the device. All using the BACnet protocol.
+
+I guess we will see how robust the unit is based on how it behaves at the plugfest. Stay tuned!
