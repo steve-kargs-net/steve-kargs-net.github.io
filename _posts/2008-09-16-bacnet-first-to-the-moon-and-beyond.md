@@ -1,6 +1,6 @@
 ---
 id: 112
-title: 'BACnet &#8211; First to the Moon, and Beyond!'
+title: 'BACnet - First to the Moon, and Beyond!'
 date: '2008-09-16T08:06:45-05:00'
 author: skarg
 layout: post

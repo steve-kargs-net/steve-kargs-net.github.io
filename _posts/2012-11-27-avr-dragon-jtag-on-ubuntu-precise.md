@@ -10,7 +10,9 @@ categories:
     - Linux
 ---
 
-[![Lt. Col. Pat Ichi Karg at Little Rock Air Show in F4 Phantom](http://steve.kargs.net/wp-content/uploads/2012/11/f4-pass-2-150x150.jpg "f4-pass-2")](http://steve.kargs.net/wp-content/uploads/2012/11/f4-pass-2.jpg)I have a [BACnet Development Kit](http://bacnetdevelopmentkit.com/) which uses the example firmware compiled from the [open source BACnet Protocol Stack hosted on SourceForge.net](http://bacnet.sourceforge.net/) using [gcc-avr](http://www.avrfreaks.net/AVRGCC/). I attempted to load the firmware onto the kit using an [Atmel AVR Dragon](http://www.atmel.com/tools/avrdragon.aspx) USB JTAG programmer. I connected the AVR Dragon to my Ubuntu Precise Linux Laptop and attached the 2×5 JTAG cable to the development kit board, and attempted to program using [avrdude](http://www.bsdhome.com/avrdude/) as I had many times over the last several years.
+[![Lt. Col. Pat Ichi Karg at Little Rock Air Show in F4 Phantom](http://steve.kargs.net/wp-content/uploads/2012/11/f4-pass-2-150x150.jpg "f4-pass-2")](http://steve.kargs.net/wp-content/uploads/2012/11/f4-pass-2.jpg)
+
+I have a [BACnet Development Kit](http://bacnetdevelopmentkit.com/) which uses the example firmware compiled from the [open source BACnet Protocol Stack hosted on SourceForge.net](http://bacnet.sourceforge.net/) using [gcc-avr](http://www.avrfreaks.net/AVRGCC/). I attempted to load the firmware onto the kit using an [Atmel AVR Dragon](http://www.atmel.com/tools/avrdragon.aspx) USB JTAG programmer. I connected the AVR Dragon to my Ubuntu Precise Linux Laptop and attached the 2×5 JTAG cable to the development kit board, and attempted to program using [avrdude](http://www.bsdhome.com/avrdude/) as I had many times over the last several years.
 
 ```
 avrdude -c dragon_jtag -p m644p -P usb -B 8 -U hfuse:w:0x93:m -U lfuse:w:0xD7:m -U efuse:w:0xFC:m

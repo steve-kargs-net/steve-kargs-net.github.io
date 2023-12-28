@@ -11,7 +11,9 @@ categories:
     - rights
 ---
 
-[![Lego Coin Pusher Gamble](http://steve.kargs.net/wp-content/uploads/2014/01/IMAG3413-150x150.jpg)](http://steve.kargs.net/wp-content/uploads/2014/01/IMAG3413.jpg)A recent query on the [BACnet-L mailing list](http://www.bacnet.org/Contact/BACnet-L.htm) reminded me that I should probably post an update to my previous article about [BACnet and Software Patents](http://steve.kargs.net/bacnet/bacnet-and-software-patents/) in 2009. In the previous article, I lamented about a patent that was granted while the BACnet MS/TP working group had been working on standardizing several mechanisms to allow automatic MAC addressing.
+[![Lego Coin Pusher Gamble](http://steve.kargs.net/wp-content/uploads/2014/01/IMAG3413-150x150.jpg)](http://steve.kargs.net/wp-content/uploads/2014/01/IMAG3413.jpg)
+
+A recent query on the [BACnet-L mailing list](http://www.bacnet.org/Contact/BACnet-L.htm) reminded me that I should probably post an update to my previous article about [BACnet and Software Patents](http://steve.kargs.net/bacnet/bacnet-and-software-patents/) in 2009. In the previous article, I lamented about a patent that was granted while the BACnet MS/TP working group had been working on standardizing several mechanisms to allow automatic MAC addressing.
 
 The 3 methods of configuring an MS/TP MAC address without having to set a DIP switch that the MS/TP working group discussed many years ago included DHCP, ZeroConfig, and direct configuration via broadcast. Two of the methods have had proposals that moved from MS/TP working group into SSPC-135 BACnet committee in 2013, and are currently awaiting committee approval (or perhaps some updates from me).
 

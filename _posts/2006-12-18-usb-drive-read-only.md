@@ -10,7 +10,7 @@ categories:
     - Linux
 ---
 
-[![trio_mp3_player.jpg](http://steve.kargs.net/wp-content/uploads/2006/12/.thumbs/.trio_mp3_player.jpg "trio_mp3_player.jpg")](http://steve.kargs.net/wp-content/uploads/2006/12/trio_mp3_player.jpg)I was in a hurry on Sunday as our family was about to leave on a road trip to visit some relatives. Joshua had a problem copying some music from his [Kubuntu Linux](http://kubuntu.org/) PC to an MP3 player that I have because the MP3 player was full. I had purchased the 512MB Trio MP3 player from [eCost](http://www.ecost.com/), one of my favorite discount online stores. I have used the MP3 player on many airline trips.  
+[![trio_mp3_player.jpg](http://steve.kargs.net/wp-content/uploads/2006/12/thumbs/trio_mp3_player.jpg "trio_mp3_player.jpg")](http://steve.kargs.net/wp-content/uploads/2006/12/trio_mp3_player.jpg)I was in a hurry on Sunday as our family was about to leave on a road trip to visit some relatives. Joshua had a problem copying some music from his [Kubuntu Linux](http://kubuntu.org/) PC to an MP3 player that I have because the MP3 player was full. I had purchased the 512MB Trio MP3 player from [eCost](http://www.ecost.com/), one of my favorite discount online stores. I have used the MP3 player on many airline trips.  
 Joshua tried to delete the existing files on the MP3 player but his [KDE Konqueror](http://www.konqueror.org/) file manager window said that the files could not be deleted since the files were read-only. I had put the files on there with my [Ubuntu Linux](http://www.ubuntu.com/) PC. Why couldn’t he use the USB drive?
 
 I took over at his keyboard and attempted to remount the Trio USB thumb drive MP3 player as read-write:

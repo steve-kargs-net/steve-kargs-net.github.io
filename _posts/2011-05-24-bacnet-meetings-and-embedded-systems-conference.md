@@ -13,7 +13,9 @@ tags:
     - bacnet
 ---
 
-[![](http://steve.kargs.net/wp-content/uploads/2011/05/jeri-ellsworth-ESC-2011-150x150.jpg "jeri-ellsworth-ESC-2011")](http://steve.kargs.net/wp-content/uploads/2011/05/jeri-ellsworth-ESC-2011.jpg)I had [BACnet](http://www.bacnet.org/) meetings the week of May 2, 2011, in San Francisco. It also happened that the Embedded Systems Conference was the same week in [San Jose](http://en.wikipedia.org/wiki/San_Jose,_California). I perused my BACnet meeting schedule, and found that I could attend the Embedded Systems Conference on Thursday morning, which would enable me to see the exhibits, and also hear the keynote from [Jeri Ellsworth](http://en.wikipedia.org/wiki/Jeri_Ellsworth).
+[![](http://steve.kargs.net/wp-content/uploads/2011/05/jeri-ellsworth-ESC-2011-150x150.jpg "jeri-ellsworth-ESC-2011")](http://steve.kargs.net/wp-content/uploads/2011/05/jeri-ellsworth-ESC-2011.jpg)
+
+I had [BACnet](http://www.bacnet.org/) meetings the week of May 2, 2011, in San Francisco. It also happened that the Embedded Systems Conference was the same week in [San Jose](http://en.wikipedia.org/wiki/San_Jose,_California). I perused my BACnet meeting schedule, and found that I could attend the Embedded Systems Conference on Thursday morning, which would enable me to see the exhibits, and also hear the keynote from [Jeri Ellsworth](http://en.wikipedia.org/wiki/Jeri_Ellsworth).
 
 My flight to San Francisco from Birmingham went through Houston. In Houston, I got to ride the [Automated People Mover](http://en.wikipedia.org/wiki/TerminaLink) train between concourses, always a highlight on my trips since I worked on these vehicles at several airport and downtown systems for [Westinghouse Transportation Systems](http://www.bombardier.com/) from 1992-1997. The train performed flawlessly – perfect programmed stop, smooth acceleration, and very little jerk. Much to my delight, San Francisco Airport also had [Automated People Mover](http://en.wikipedia.org/wiki/AirTrain_(SFO)) trains, and they also worked very well to get me to the rental car garage.
 

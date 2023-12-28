@@ -29,8 +29,6 @@ $ sudo apt-get install gimp-plugin-registry
 
 After restarting the GIMP, here are the results:
 
-<div class="wp-caption alignleft" id="attachment_134" style="width: 160px">[![Low light photo (scaled)](http://steve.kargs.net/wp-content/uploads/2008/10/halloweenslowdance-150x150.jpg "halloweenslowdance")](http://steve.kargs.net/wp-content/uploads/2008/10/halloweenslowdance.jpg)Low light photo (scaled)
+[![Low light photo (scaled)](http://steve.kargs.net/wp-content/uploads/2008/10/halloweenslowdance-150x150.jpg "halloweenslowdance")](http://steve.kargs.net/wp-content/uploads/2008/10/halloweenslowdance.jpg) Low light photo (scaled)
 
-</div><div class="wp-caption alignright" id="attachment_134" style="width: 160px">[![Low light photo (GREYCstoration, scaled)](http://steve.kargs.net/wp-content/uploads/2008/10/halloweenslowdancecropscaled-150x150.jpg "halloweenslowdancecropscaled")](http://steve.kargs.net/wp-content/uploads/2008/10/halloweenslowdancecropscaled.jpg)Low light photo (GREYCstoration, scaled)
-
-</div>
+[![Low light photo (GREYCstoration, scaled)](http://steve.kargs.net/wp-content/uploads/2008/10/halloweenslowdancecropscaled-150x150.jpg "halloweenslowdancecropscaled")](http://steve.kargs.net/wp-content/uploads/2008/10/halloweenslowdancecropscaled.jpg) Low light photo (GREYCstoration, scaled)

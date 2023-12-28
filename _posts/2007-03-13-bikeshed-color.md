@@ -10,7 +10,7 @@ categories:
     - process
 ---
 
-[![A shed I built in my backyard with the help of my brother Lou and neighbors and friends.](http://steve.kargs.net/wp-content/uploads/2007/.thumbs/.house_shed.jpg "A shed I built in my backyard with the help of my brother Lou and neighbors and friends.")](http://steve.kargs.net/wp-content/uploads/2007/house_shed.jpg)Cyril Northcote Parkinson wrote “[Parkinson’s Law, and Other Studies in Administration](http://www.amazon.com/Parkinsons-Law-Other-Studies-Administration/dp/0395083737/ref=pd_bbs_sr_3/102-3251688-0627326?ie=UTF8&s=books&qid=1173797251&sr=8-3)” that was published in October, 1962.
+[![A shed I built in my backyard with the help of my brother Lou and neighbors and friends.](http://steve.kargs.net/wp-content/uploads/2007/thumbs/house_shed.jpg "A shed I built in my backyard with the help of my brother Lou and neighbors and friends.")](http://steve.kargs.net/wp-content/uploads/2007/house_shed.jpg)Cyril Northcote Parkinson wrote “[Parkinson’s Law, and Other Studies in Administration](http://www.amazon.com/Parkinsons-Law-Other-Studies-Administration/dp/0395083737/ref=pd_bbs_sr_3/102-3251688-0627326?ie=UTF8&s=books&qid=1173797251&sr=8-3)” that was published in October, 1962.
 
 There is an example in the book that refers to a bike shed and an atomic power-plant. According to a [posting on the freebsd mailing list](http://www.freebsd.org/doc/en_US.ISO8859-1/books/faq/misc.html#BIKESHED-PAINTING),
 

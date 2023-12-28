@@ -10,7 +10,7 @@ categories:
     - travel
 ---
 
-[![Palm trees at the pool](http://steve.kargs.net/wp-content/uploads/2007/.thumbs/.img_5503.jpg "Palm trees at the pool")](http://steve.kargs.net/wp-content/uploads/2007/img_5503.jpg)Having just moved to San Diego, California, I’ve noticed some unique things about it that I wanted to write down before they became commonplace to me.
+[![Palm trees at the pool](http://steve.kargs.net/wp-content/uploads/2007/thumbs/img_5503.jpg "Palm trees at the pool")](http://steve.kargs.net/wp-content/uploads/2007/img_5503.jpg)Having just moved to San Diego, California, I’ve noticed some unique things about it that I wanted to write down before they became commonplace to me.
 
 Traffic lights – only one light above two lanes.
 
