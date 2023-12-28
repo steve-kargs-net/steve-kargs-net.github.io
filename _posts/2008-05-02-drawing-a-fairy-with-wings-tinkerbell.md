@@ -1,6 +1,6 @@
 ---
 id: 88
-title: 'Drawing a Fairy with Wings &#8211; Tinkerbell'
+title: 'Drawing a Fairy with Wings - Tinkerbell'
 date: '2008-05-02T22:19:16-05:00'
 author: skarg
 layout: post
