@@ -1,6 +1,6 @@
 ---
 id: 5
-title: 'Personal Software Process &#8211; PSP'
+title: 'Personal Software Process - PSP'
 date: '2006-03-18T14:41:52-05:00'
 author: skarg
 layout: post

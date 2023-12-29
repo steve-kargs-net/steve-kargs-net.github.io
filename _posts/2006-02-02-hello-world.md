@@ -1,6 +1,6 @@
 ---
 id: 1
-title: 'Kargs.net &#8211; new hosting'
+title: 'Kargs.net - new hosting'
 date: '2006-02-02T12:00:00-05:00'
 author: skarg
 layout: post

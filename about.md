@@ -21,8 +21,8 @@ I am also an avid amateur photographer. You can see my work in my blog, on my [w
 ## Contact Information
 
 Steve Karg  
-1972 Waterford Place  
-Birmingham, AL 35244  
+739 Jasmine Way  
+Birmingham, AL 35226
 U.S.A
 
 770-262-3095  

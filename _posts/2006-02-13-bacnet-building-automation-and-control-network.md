@@ -1,6 +1,6 @@
 ---
 id: 3
-title: 'BACnet &#8211; Building Automation and Control NETwork'
+title: 'BACnet - Building Automation and Control NETwork'
 date: '2006-02-13T08:46:53-05:00'
 author: skarg
 layout: post
