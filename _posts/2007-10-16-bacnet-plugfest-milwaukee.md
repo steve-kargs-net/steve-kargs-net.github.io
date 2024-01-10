@@ -1,6 +1,6 @@
 ---
 id: 77
-title: 'BACnet Plugfest &#8211; Milwaukee'
+title: 'BACnet Plugfest - Milwaukee'
 date: '2007-10-16T23:29:41-05:00'
 author: skarg
 layout: post
