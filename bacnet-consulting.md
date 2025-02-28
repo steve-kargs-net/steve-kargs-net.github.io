@@ -32,10 +32,10 @@ As the creator of the open source [BACnet Stack hosted on SourceForge.net®](htt
 
 ## Contact Information
 
-Steve Karg  
-Karg Service Company  
-1972 Waterford Place  
-Birmingham, AL 35244  
-U.S.A  
-770-262-3095  
+Steve Karg
+Karg Service Company
+739 Jasmine Way
+Birmingham, AL 35226
+U.S.A
+770-262-3095
 <steve@kargservice.com>

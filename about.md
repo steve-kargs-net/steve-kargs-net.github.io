@@ -10,7 +10,7 @@ layout: page
 
 My name is [Steve Karg](http://kargs.net/), and I write [software](http://steve.kargs.net/category/software/) (aka firmware) for a living. I thought I should dedicate some web space for the things I do. I mostly write embedded C for PC and microcontroller based controllers, but I have dabbled in a few other areas as well.
 
-I am passionate about writing high quality software, and enjoy using [Extreme Programming](http://xprogramming.org/) key practices.
+I am passionate about writing high quality software, and enjoy using [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) key practices.
 
 I participate in an international standard for building automation and control networking called [BACnet](http://www.bacnet.org/ "BACnet"). I even wrote an [open source BACnet protocol stack](http://bacnet.sourceforge.net/). I wrote some of the BACnet dissector code in [Wireshark](http://wireshark.org/), and help maintain it. My [PDF resume](http://www.kargs.net/docs/stk-resume.pdf) or [Linked In profile](https://www.linkedin.com/in/skarg) show other things that I have done for work.
 
@@ -20,10 +20,10 @@ I am also an avid amateur photographer. You can see my work in my blog, on my [w
 
 ## Contact Information
 
-Steve Karg  
-739 Jasmine Way  
+Steve Karg
+739 Jasmine Way
 Birmingham, AL 35226
 U.S.A
 
-770-262-3095  
+770-262-3095
 [steve@kargs.net](http://kargs.net/contacts.html)
